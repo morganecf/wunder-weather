@@ -1,11 +1,8 @@
 # wunder-weather
 
-Script to scrape weather data from wunderground.com for a given city and year range. 
+Script to scrape weather data from wunderground.com for a given city and year range. Input city should be wunderground.com's id for it (ex: CYUL for Montreal, KNYC for NYC). Outputs to a csv file in the same directory called city_startyear_endyear_weather.csv.
 
 This is useful because using the API for free limits you to 500 calls/day, so it would take about a month to scrape all of their (reliable) data, which I think is from 1965 onwards. This takes about 6 hours. 
-
-Input city should be wunderground.com's id for it (ex: CYUL for Montreal, KNYC for NYC). 
-Outputs to a csv file in the same directory called city_startyear_endyear_weather.csv. 
 
 Made with my love for my little brother who is attempting to incorporate weather into a financial model, as if that's never been done before. 
 
